@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace BowlingLeague.Infrastructure
 {
+
     [HtmlTargetElement("div", Attributes= "page-info")]
     public class PaginationTagHelper : TagHelper
     {
